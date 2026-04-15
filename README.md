@@ -122,3 +122,8 @@ Framework-specific skill installation:
 - [Codex](./.codex/INSTALL.md)
 - [OpenCode](./.opencode/INSTALL.md)
 - [Claude](./.claude/INSTALL.md)
+
+## Resources
+View the Demo Video and screenshots:
+
+- <https://drive.google.com/drive/folders/1IxqF3-n2ZXk1oq1xCQZHVqGhWB1fUrl6>
