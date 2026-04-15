@@ -17,7 +17,7 @@ It does not install API keys, wallet credentials, or RPC settings for you.
 1. Clone the repository somewhere stable:
 
 ```bash
-git clone <repo-url> ~/.claude/trench-archaeologist
+git clone https://github.com/anubarakk/trench-archaeologist.git ~/.claude/trench-archaeologist
 ```
 
 2. Open the project in your Claude-compatible workflow or workspace.
