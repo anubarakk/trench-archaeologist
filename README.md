@@ -19,7 +19,7 @@ Trench Archaeologist has three core layers plus one Uniswap layer.
    Publishes structured forensic records to an X Layer smart contract and fetches prior records for rechecks.
 
 4. **Uniswap Layer**  
-   Creates a Uniswap route suggestion and deep link while keeping the product forensic-first.
+   Creates a Uniswap route suggestion and deep link.
 
 ### Architecture Diagram
 ```text
