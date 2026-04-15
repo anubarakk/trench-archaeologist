@@ -1,20 +1,29 @@
 ---
 name: trench-archaeologist
-description: "Use this skill when a user or agent wants to investigate an onchain DEX token, review a fresh meme/trench launch, recheck a previously examined token, or compare a new token against previously recorded forensic data. This skill gathers live token, market, security, and trench-style launch evidence, generates a forensic report, and stores forensic data on X Layer for proof and future reference."
+description: "Use this skill when a user or agent asks for a forensic report on an onchain DEX token, wants to investigate a token address, review a fresh meme or trench launch, recheck a previously examined token, compare a token against prior forensic history, or ask whether a token should be watched or avoided. This skill gathers live token, market, security, and trench-style launch evidence, generates a human-readable forensic report, and records structured forensic data on X Layer for proof, rechecks, and future agent reuse."
 ---
 
 # Trench Archaeologist
 
-Trench Archaeologist is a reusable forensic reporting skill for onchain DEX tokens. It digs through token, market, security, and trench-style launch data from Onchain OS to reconstruct token behavior, generate a forensic report, prepare a Uniswap `swap-planner`-style plan with a real Uniswap deep link, and store forensic data on X Layer through one real smart-contract publish transaction submitted through the Agentic Wallet path as part of the report flow.
+Trench Archaeologist is a reusable forensic reporting skill for onchain DEX tokens. A user or agent can give it a token address in natural language, and the skill will investigate the token, detect the network automatically when possible, gather live Onchain OS evidence, generate a final forensic report, prepare a Uniswap `swap-planner`-style route suggestion with a real Uniswap deep link, and publish structured forensic data on X Layer through one real smart-contract transaction submitted through the Agentic Wallet path.
 
 ## When to Use
 
-Use this skill when the user wants to:
-- investigate a DEX token
+Use this skill when the user or agent wants to:
+- give a token address and get a forensic report
+- investigate a DEX token before buying, recommending, or monitoring it
 - review a fresh meme or trench launch
-- understand a token before buying, recommending, or monitoring it
 - recheck the same token later
-- compare a new token against previously recorded forensic data
+- compare a token against previously recorded forensic data
+- ask whether a token should be watched, avoided, or rechecked
+
+## Example Requests
+
+- Give me a forensic report for this token: 0x...
+- Investigate this token address: 0x...
+- Recheck this token and compare it with prior forensic history
+- Should I watch or avoid this token?
+- Analyze this meme token and give me the final forensic report
 
 ## Do Not Use For
 
@@ -27,7 +36,7 @@ Do not use this skill for:
 
 ## Main Workflow
 
-1. Collect token address, and use token name when available for readability and review.
+1. Accept a token address from the user or agent, and use token name when available for readability and review.
 2. Detect the real network automatically when possible, and only require explicit network input when detection fails.
 3. Determine whether standard DEX evidence or trench-style evidence is more relevant.
 4. Gather live evidence from Onchain OS sources.
@@ -41,13 +50,13 @@ Do not use this skill for:
 8. Build the forensic data payload.
 9. Build the locked input payload and richer forensic record payload.
 10. Store forensic data on X Layer through the active registry contract using the Agentic Wallet path.
-11. Return the forensic report with the locked Case Report proof fields:
+11. Return the final forensic report in the locked output format, including the Case Report proof fields:
    - X Layer (tx hash)
    - View on Explorer
 
 ## Report Structure
 
-The report should use this structure:
+The final forensic report should use this structure:
 - Token Details
 - Market Activity
 - Findings
@@ -55,7 +64,7 @@ The report should use this structure:
 - Case Report
 - Uniswap Plan
 
-For demo or submission output, the Case Report should include:
+The Case Report should include:
 - X Layer (tx hash)
 - View on Explorer
 
