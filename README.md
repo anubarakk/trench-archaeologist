@@ -126,4 +126,4 @@ Framework-specific skill installation:
 ## Resources
 View the Demo Video and screenshots:
 
-- <https://drive.google.com/drive/folders/1IxqF3-n2ZXk1oq1xCQZHVqGhWB1fUrl6>
+- <https://drive.google.com/drive/folders/1dUMI7iwTd8_BpsyR3PZYjDfLW3uzSP7G>
