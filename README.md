@@ -94,23 +94,20 @@ Tx Hash + Explorer Link + Historical Readback
 - **Mark**
 
 ## Project Positioning in the X Layer Ecosystem
-Nobody has built a self-growing immutable forensic report library for X Layer in this form yet. This skill is useful for both humans and agents who want to trade through DEXs.
+Nobody has built a self-growing immutable forensic record on X Layer Ecosystem. And every existing tool in crypto looks forward, scans new launches, detects rugs in real-time, alerts before entry. Nobody looks backward systematically. 
 
-Before trading, they can perform a forensic report on a token to check patterns, fingerprints, repeated behavior, and other signals using the forensic records already stored in the X Layer smart contract:
+The result: the same rug patterns, the same whale manipulation tactics, the same influencer pump mechanics repeat over and over because there's no structured, agent-readable, permanent forensic record (X Layer) of what actually happened and why.
 
-- <https://web3.okx.com/explorer/x-layer/address/0x8295db870c2045951a5d0bef71e54d8718df76ea/event>
+### What makes it different? 
+- Everyone scans forward. We go backward. 
+- Everyone detects rugs. We reconstruct why they worked and encode the pattern as a fingerprint via X Layer smart contract event log.
+- Everyone produces reports for humans. We produce machine-readable pattern fingerprint for agents.
 
-This skill helps them:
-- make better decisions before buying
-- understand the history of a token
-- check whether the pattern changed or stayed similar to other tokens already recorded
-- identify whether an existing behavior pattern may suggest a likely outcome over the next days or weeks, especially for meme tokens
+Trench Archaeologist fills this gap. You give it a token address, it digs through important data about that token, generates a forensic report, and records structured forensic data on-chain via X Layer smart contract so it becomes immutable and reusable by both humans and agents.
 
-Most existing crypto tools look forward. They scan new launches, detect rugs in real time, and alert before entry. Very few tools look backward systematically.
+That fingerprint becomes part of a growing forensic record on X Layer. New tokens get scanned against the forensic record. If a new launch matches a known pattern, agents know before anyone else. 
 
-Because of that, the same rug patterns, whale manipulation tactics, and influencer pump mechanics can repeat without leaving behind a structured, agent-readable, permanent public record of their fingerprint or important behavior.
-
-Trench Archaeologist helps fill that gap. You give it a token address, it digs through important data about that token, generates a forensic report, and records structured forensic data onchain so it becomes immutable and reusable by both humans and agents.
+This makes the forensic record useful for X Layer Ecosytem.
 
 ## Installation
 For full project setup, environment variables, wallet setup, run commands, and troubleshooting, see:
