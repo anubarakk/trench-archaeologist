@@ -57,8 +57,8 @@ Tx Hash + Explorer Link + Historical Readback
 
 ### Sample Transaction
 - **Sample TX Hash (individual record):**  
-  <https://web3.okx.com/explorer/x-layer/tx/0x4a480f35b8513ed8a0589471d699184e8e4e9505bfef691d22df9cd4380e4fe6>
-- To inspect the forensic payload, open **Input Data** and change the display from **Default Data** to **UTF-8**.
+  <https://www.oklink.com/x-layer/tx/0x92b5e9ae19e5b91428365b9e3f8c2fd7d7d2a21731299bcd7f1fadc312320b59>
+- To inspect the forensic data, open **Input Data** and change the display from **Default Data** to **UTF-8**.
 
 ## Onchain OS / Uniswap Skill Usage
 - **okx-dex-token**  
