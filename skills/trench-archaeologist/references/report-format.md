@@ -33,8 +33,8 @@ Three short sentences:
 - case ID
 - type
 - reason
-- X Layer (tx hash) when live publish is used
-- View on Explorer when live publish is used
+- X Layer (tx hash)
+- View on Explorer
 
 ## Uniswap Plan
 - suggested route
