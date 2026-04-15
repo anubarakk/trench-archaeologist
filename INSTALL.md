@@ -16,7 +16,7 @@ onchainos --help
 
 ## Clone the Repository
 ```bash
-git clone <repo-url>
+git clone https://github.com/anubarakk/trench-archaeologist.git
 cd trench-archaeologist
 ```
 
