@@ -1,6 +1,6 @@
 {
   "name": "trench-archaeologist",
-  "version": "0.1.0",
+  "version": "2.5.0",
   "private": true,
   "description": "Forensic reporting skill for onchain DEX tokens using Onchain OS and X Layer",
   "type": "module",
