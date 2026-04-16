@@ -1,7 +1,7 @@
 # Trench Archaeologist
 
 ## Project Intro
-Trench Archaeologist is a reusable forensic reporting skill built specifically for DEX tokens. It analyzes tokens using Onchain OS market, security, token, and trench-style evidence, then generates forensic reports that both humans and agents can understand.
+Trench Archaeologist is a reusable forensic reporting skill built specifically for DEX tokens. A user or agent can give it a token address, and it analyzes the token using Onchain OS market, security, token, and trench-style evidence, then returns a final forensic report that both humans and agents can understand.
 
 After each analysis, the forensic report is recorded onchain on X Layer through a smart contract. This creates a public library of forensic token records that can be reused in future forensic reports and filtered by other agents if they want to use the data.
 
@@ -19,7 +19,7 @@ Trench Archaeologist has three core layers plus one Uniswap layer.
    Publishes structured forensic records to an X Layer smart contract and fetches prior records for rechecks.
 
 4. **Uniswap Layer**  
-   Creates a Uniswap route suggestion and deep link.
+   Creates a Uniswap route suggestion and deep link after the forensic verdict is generated.
 
 ### Architecture Diagram
 ```text
@@ -86,9 +86,25 @@ Tx Hash + Explorer Link + Historical Readback
 4. The project generates a forensic report.
 5. The project generates a Uniswap plan using `swap-planner` logic and a real Uniswap deep link.
 6. The project builds structured forensic data.
-7. In the full proof flow, the Agentic Wallet path publishes that data to the active X Layer registry smart contract.
+7. The Agentic Wallet path publishes that data to the active X Layer registry smart contract.
 8. The publish transaction returns a real tx hash and explorer link.
 9. Future runs fetch prior forensic data from the contract and classify rechecks accordingly.
+
+## Example Interaction
+
+User:
+Give me a forensic report for this token: 0x...
+
+Trench Archaeologist:
+Returns the final forensic report, including:
+- Token Details
+- Market Activity
+- Findings
+- Conclusion
+- Case Report
+- X Layer tx hash
+- Explorer link
+- Uniswap plan
 
 ## Team Member
 - **Mark**
