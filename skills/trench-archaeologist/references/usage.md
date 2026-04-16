@@ -39,7 +39,7 @@ The normal interaction pattern is:
 - Onchain OS trench-style launch data when relevant
 
 ## Prerequisites
-Before using the live project flow, make sure you have:Before using the skill through the live project flow, make sure you have:
+Before using the skill through the live project flow, make sure you have:
 - Node.js and npm installed
 - `onchainos` CLI installed and available
 - OKX API credentials
@@ -66,16 +66,23 @@ Also set:
 - `DEPLOYER_PRIVATE_KEY` only for direct contract deployment
 
 ## Local Direct Execution
-## Local Direct Execution
 Use the local project runner when you want to execute the skill directly from the repository. The project will try to detect the network automatically and will publish the forensic record on X Layer as part of the report flow.
 
 ```bash
 npm run dev -- <token-address>
+```
 
 Example:
 
+```bash
 npm run dev -- 0x3e17ee3b1895dd1a7cf993a89769c5e029584444
+```
 
+If needed, you can also provide the network explicitly:
+
+```bash
+npm run dev -- <token-address> <network>
+```
 
 ## Wallet Checks
 Before running the skill through the live project flow, verify your wallet session:
