@@ -66,13 +66,16 @@ Also set:
 - `DEPLOYER_PRIVATE_KEY` only for direct contract deployment
 
 ## Local Direct Execution
-```md
+## Local Direct Execution
 Use the local project runner when you want to execute the skill directly from the repository. The project will try to detect the network automatically and will publish the forensic record on X Layer as part of the report flow.
 
 ```bash
 npm run dev -- <token-address>
+
 Example:
+
 npm run dev -- 0x3e17ee3b1895dd1a7cf993a89769c5e029584444
+
 
 ## Wallet Checks
 Before running the skill through the live project flow, verify your wallet session:
