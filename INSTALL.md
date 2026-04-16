@@ -74,8 +74,15 @@ If your wallet is not ready yet, create or log in to your own Agentic Wallet thr
 npm run build
 ```
 
-## Run the Forensic Report
-Use the token address directly. The project will try to detect the network automatically and will publish the forensic record on X Layer as part of the report flow.
+## Natural Skill Usage
+Typical skill-style requests look like:
+- Give me a forensic report for this token: 0x...
+- Investigate this token address: 0x...
+- Recheck this token against prior forensic history
+- Should I watch or avoid this token?
+
+## Local Direct Execution
+Use the local project runner when you want to execute the skill directly from the repository. The project will try to detect the network automatically and will publish the forensic record on X Layer as part of the report flow.
 
 ```bash
 npm run dev -- <token-address>
@@ -94,7 +101,7 @@ npm run dev -- <token-address> <network>
 ```
 
 ## Verify a Successful Run
-A successful run should return the locked final forensic report shape, including:
+A successful run should return the final forensic report shape, including:
 - `X Layer (tx hash)`
 - `View on Explorer`
 - a saved forensic record on the active X Layer registry
