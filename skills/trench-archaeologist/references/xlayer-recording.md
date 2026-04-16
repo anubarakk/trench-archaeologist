@@ -2,6 +2,10 @@
 
 Trench Archaeologist stores forensic data on X Layer after generating a report.
 
+## Why This Matters For Skill Interaction
+
+Because every report is published on X Layer, future runs can reuse prior forensic records, classify rechecks more intelligently, and return stronger context to both humans and agents.
+
 ## Active Registry
 - Contract: `0x8295Db870C2045951a5d0Bef71E54D8718dF76eA`
 - Deploy tx: `0xa458ebcb782035dd3d1e6a73a80346f070104ceb6c3078d661a7e32b63ed8ac2`
