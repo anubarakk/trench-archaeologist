@@ -1,5 +1,7 @@
 # Report Format
 
+This file describes the final assistant-facing forensic report returned after a user or agent provides a token address.
+
 The forensic report uses one shared structure:
 
 ## Token Details
