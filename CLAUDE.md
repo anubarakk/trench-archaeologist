@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This repository provides Trench Archaeologist as a reusable forensic reporting skill for DEX tokens.
+This repository provides Trench Archaeologist as a reusable forensic reporting skill for DEX tokens. A user or agent can give it a token address in natural language, and it returns a final forensic report with X Layer proof.
 
 ## What it does
 
@@ -24,6 +24,13 @@ Use Trench Archaeologist when a user or agent wants to:
 - understand a token before buying or monitoring it
 - recheck a token later
 - compare a new token against previously recorded forensic data
+
+## Example Requests
+
+- Give me a forensic report for this token: 0x...
+- Investigate this token address: 0x...
+- Recheck this token against prior forensic history
+- Should I watch or avoid this token?
 
 ## What the skill should return
 
@@ -57,6 +64,11 @@ Typical local setup:
 npm install
 cp .env.example .env
 npm run build
+```
+
+For direct repository execution, use the local project runner:
+
+```bash
 npm run dev -- <token-address>
 ```
 
