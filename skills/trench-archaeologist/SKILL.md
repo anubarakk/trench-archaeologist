@@ -50,7 +50,7 @@ Do not use this skill for:
 8. Build the forensic data payload.
 9. Build the locked input payload and richer forensic record payload.
 10. Store forensic data on X Layer through the active registry contract using the Agentic Wallet path.
-11. Return the final forensic report in the locked output format, including the Case Report proof fields:
+11. Return the final forensic report using the structure described in `references/report-format.md`, including the Case Report proof fields:
    - X Layer (tx hash)
    - View on Explorer
 
