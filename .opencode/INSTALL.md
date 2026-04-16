@@ -79,6 +79,13 @@ onchainos wallet status
 onchainos wallet addresses
 ```
 
+## Example Skill Requests
+
+- Give me a forensic report for this token: 0x...
+- Investigate this token address: 0x...
+- Recheck this token against prior forensic history
+- Should I watch or avoid this token?
+
 ## Run locally
 
 Build:
@@ -87,7 +94,7 @@ Build:
 npm run build
 ```
 
-Run the forensic report:
+For direct repository execution, use the local project runner:
 
 ```bash
 npm run dev -- <token-address>
